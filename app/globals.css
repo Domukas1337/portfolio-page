@@ -10,6 +10,20 @@ body {
   font-family: var(--font-oxygen-mono);
 }
 
+@keyframes jumpoutfadein {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.jumpoutfadein {
+  animation: jumpoutfadein 0.8s ease-in-out;
+}
 .dmkas {
   letter-spacing: 10px;
 }
@@ -20,5 +34,9 @@ body {
 }
 .second-background {
   background-image: url("/11.jpg");
+  background-size: cover;
+}
+.third-background {
+  background-image: url("/12.jpg");
   background-size: cover;
 }
