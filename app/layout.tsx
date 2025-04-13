@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Oxygen_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/Components/Navbar";
+import Footer from "@/Components/Footer";
 
 const oxygenMono = Oxygen_Mono({
   subsets: ["latin"],
@@ -20,7 +22,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${oxygenMono.variable} antialiased`}>
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

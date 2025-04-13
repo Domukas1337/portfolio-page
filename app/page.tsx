@@ -1,11 +1,9 @@
-import Navbar from "@/Components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <main>
-      <Navbar />
       <div className="flex flex-col justify-center h-screen first-background text-6xl sm:text-8xl md:text-9xl text-white pl-2">
         <div className="jumpoutfadein">
           <p>DESIGNING</p>
@@ -32,7 +30,7 @@ export default function Home() {
           <p className="text-6xl sm:text-8xl md:text-9xl">ME</p>
         </div>
         <div className="flex flex-col justify-center text-white pr-10">
-          <p className="text-xl text-wrap mx-2">
+          <p className="text-xl text-wrap mx-2 border p-2">
             I am a web designer and developer. Lorem ipsum dolor sit amet
             consectetur adipisicing elit. Quam incidunt iste aperiam dicta
             ipsam, suscipit, temporibus quaerat ratione nihil atque
