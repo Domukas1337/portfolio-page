@@ -26,10 +26,21 @@ export default function Home() {
           Click an image to learn more!
         </p>
       </div>
-      <div className="flex flex-row h-screen third-background">
+      <div className="flex flex-col sm:flex-row justify-center sm:justify-between h-screen third-background">
         <div className="flex flex-col justify-center text-white pl-2">
           <p className="text-6xl sm:text-8xl md:text-9xl">ABOUT</p>
           <p className="text-6xl sm:text-8xl md:text-9xl">ME</p>
+        </div>
+        <div className="flex flex-col justify-center text-white pr-10">
+          <p className="text-xl text-wrap mx-2">
+            I am a web designer and developer. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Quam incidunt iste aperiam dicta
+            ipsam, suscipit, temporibus quaerat ratione nihil atque
+            exercitationem, repellat rem minima fugit eius placeat pariatur
+            tenetur eligendi architecto. Totam perferendis corporis aliquid
+            expedita! Minus possimus omnis rem corrupti, ut nesciunt, dolorem at
+            magni quasi iusto quis mollitia!
+          </p>
         </div>
       </div>
     </main>
