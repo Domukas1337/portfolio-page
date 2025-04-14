@@ -1,3 +1,9 @@
+export async function generateMetadata() {
+  return {
+    title: "Bloggy",
+  };
+}
+
 export default function Bloggy() {
   return (
     <main>

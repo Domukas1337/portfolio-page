@@ -8,12 +8,6 @@ export default function Navbar() {
           <span className="text-red-600">.</span>
           DMKAS
         </Link>
-        <Link
-          href="/contacts"
-          className=" uppercase hover:text-cyan-200 transition-colors"
-        >
-          Contact
-        </Link>
       </div>
     </nav>
   );

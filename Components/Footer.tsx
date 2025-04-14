@@ -16,7 +16,7 @@ export default function Footer() {
           className="rounded-full bg-black"
         />
         <div className="flex flex-col pl-4">
-          <h1 className="text-md sm:text-3xl">Domukas</h1>
+          <h1 className="text-md sm:text-2xl dmkas">ELIV</h1>
           <p className="text-sm">DESIGNING RESPONSIVE WEBSITES.</p>
         </div>
         <div className="flex flex-row ml-auto gap-2">
