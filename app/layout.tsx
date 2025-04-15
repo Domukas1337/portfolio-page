@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     template: "%s | ELIV Portfolio",
   },
   description: "ELIV Portfolio",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

@@ -13,10 +13,16 @@ export default function Home() {
       </div>
       <div className="flex flex-col justify-center h-screen second-background text-white pl-2">
         <div className="flex justify-center flex-wrap">
-          <Link href="/bloggy" className="sm:hover:scale-105 transition-all">
+          <Link
+            href="https://github.com/Domukas1337/bloggy"
+            className="sm:hover:scale-105 transition-all"
+          >
             <Image src="/bloggy.png" alt="bloggy" width={700} height={600} />
           </Link>
-          <Link href="/dmkas" className="sm:hover:scale-105 transition-all">
+          <Link
+            href="https://github.com/Domukas1337/dmkas-app"
+            className="sm:hover:scale-105 transition-all"
+          >
             <Image src="/dmkas.png" alt="bloggy" width={700} height={600} />
           </Link>
         </div>
