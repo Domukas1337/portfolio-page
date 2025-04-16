@@ -13,18 +13,39 @@ export default function Home() {
       </div>
       <div className="flex flex-col justify-center h-screen second-background text-white pl-2">
         <div className="flex justify-center flex-wrap">
-          <Link
-            href="https://github.com/Domukas1337/bloggy"
-            className="sm:hover:scale-105 transition-all"
-          >
-            <Image src="/bloggy.png" alt="bloggy" width={700} height={600} />
-          </Link>
-          <Link
-            href="https://github.com/Domukas1337/dmkas-app"
-            className="sm:hover:scale-105 transition-all"
-          >
-            <Image src="/dmkas.png" alt="bloggy" width={700} height={600} />
-          </Link>
+          <div className="relative group">
+            <Link
+              href="https://github.com/Domukas1337/bloggy"
+              className="sm:hover:scale-105 transition-all block"
+            >
+              <Image src="/bloggy.png" alt="bloggy" width={700} height={600} />
+              <div className="absolute inset-2 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-sm transition-opacity duration-100 my-2 mx-4">
+                <div className="flex flex-col text-center">
+                  <p className="text-white text-xl font-bold">Bloggy</p>
+                  <p>A blog built with Next.js, Supabase, and Tailwind.</p>
+                </div>
+              </div>
+            </Link>
+          </div>
+          <div className="flex justify-center flex-wrap">
+            <div className="relative group">
+              <Link
+                href="https://github.com/Domukas1337/dmkas-app"
+                className="sm:hover:scale-105 transition-all block"
+              >
+                <Image src="/dmkas.png" alt="dmkas" width={700} height={600} />
+                <div className="absolute inset-2 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-sm transition-opacity duration-100 my-2 mx-4">
+                  <div className="flex flex-col text-center">
+                    <p className="text-white text-xl font-bold">DMKAS</p>
+                    <p>
+                      An anime search engine built with Vite, Tailwind, and
+                      JIKAN API.
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </div>
         </div>
         <p className="text-xl text-center sm:text-2xl">
           Click an image to learn more!
@@ -38,7 +59,7 @@ export default function Home() {
         <div className="flex flex-col justify-center text-white gap-10 pr-10 pl-2">
           <div className="flex flex-col justify-center text-lg sm:text-2xl">
             <p>
-              My name is <strong>Domukas.</strong>
+              My name is <strong>Domas.</strong>
             </p>
             <p>I am a frontend developer.</p>
             <p>I like to code.</p>
