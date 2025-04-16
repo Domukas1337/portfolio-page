@@ -35,16 +35,46 @@ export default function Home() {
           <p className="text-6xl sm:text-8xl md:text-9xl">ABOUT</p>
           <p className="text-6xl sm:text-8xl md:text-9xl">ME</p>
         </div>
-        <div className="flex flex-col justify-center text-white pr-10">
-          <p className="text-xl text-wrap mx-2 border p-2">
-            I am a web designer and developer. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Quam incidunt iste aperiam dicta
-            ipsam, suscipit, temporibus quaerat ratione nihil atque
-            exercitationem, repellat rem minima fugit eius placeat pariatur
-            tenetur eligendi architecto. Totam perferendis corporis aliquid
-            expedita! Minus possimus omnis rem corrupti, ut nesciunt, dolorem at
-            magni quasi iusto quis mollitia!
-          </p>
+        <div className="flex flex-col justify-center text-white gap-10 pr-10 pl-2">
+          <div className="flex flex-col justify-center text-lg sm:text-2xl">
+            <p>
+              My name is <strong>Domukas.</strong>
+            </p>
+            <p>I am a frontend developer.</p>
+            <p>I like to code.</p>
+            <p>I like to design.</p>
+          </div>
+          <div className="flex flex-col">
+            <p>Technologies I use:</p>
+            <ul className="list-disc">
+              <li>
+                <Link href="https://react.dev/" className="hover:underline">
+                  React
+                </Link>
+              </li>
+              <li>
+                <Link href="https://nextjs.org/" className="hover:underline">
+                  NextJS
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://tailwindcss.com/"
+                  className="hover:underline"
+                >
+                  TailwindCSS
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://typescriptlang.org/"
+                  className="hover:underline"
+                >
+                  Typescript
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </main>
