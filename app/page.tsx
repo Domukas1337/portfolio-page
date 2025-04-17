@@ -19,7 +19,7 @@ export default function Home() {
               className="sm:hover:scale-105 transition-all block"
             >
               <Image src="/bloggy.png" alt="bloggy" width={700} height={600} />
-              <div className="absolute inset-2 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-sm transition-opacity duration-100 my-2 mx-4">
+              <div className="absolute inset-2 backdrop-blur-xl flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-sm transition-all duration-150 rounded-4xl">
                 <div className="flex flex-col text-center">
                   <p className="text-white text-xl font-bold">Bloggy</p>
                   <p>A blog built with Next.js, Supabase, and Tailwind.</p>
@@ -34,7 +34,7 @@ export default function Home() {
                 className="sm:hover:scale-105 transition-all block"
               >
                 <Image src="/dmkas.png" alt="dmkas" width={700} height={600} />
-                <div className="absolute inset-2 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-sm transition-opacity duration-100 my-2 mx-4">
+                <div className="absolute inset-2 backdrop-blur-xl flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-sm transition-all duration-150 rounded-4xl">
                   <div className="flex flex-col text-center">
                     <p className="text-white text-xl font-bold">DMKAS</p>
                     <p>
