@@ -19,7 +19,7 @@ export default function Home() {
               className="sm:hover:scale-105 transition-all block"
             >
               <Image src="/bloggy.png" alt="bloggy" width={700} height={600} />
-              <div className="absolute inset-2 backdrop-blur-xl flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-sm transition-all duration-150 rounded-4xl">
+              <div className="absolute inset-2 rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-sm transition-all duration-200">
                 <div className="flex flex-col text-center">
                   <p className="text-white text-xl font-bold">Bloggy</p>
                   <p>A blog built with Next.js, Supabase, and Tailwind.</p>
@@ -34,7 +34,7 @@ export default function Home() {
                 className="sm:hover:scale-105 transition-all block"
               >
                 <Image src="/dmkas.png" alt="dmkas" width={700} height={600} />
-                <div className="absolute inset-2 backdrop-blur-xl flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-sm transition-all duration-150 rounded-4xl">
+                <div className="absolute inset-2 rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-sm transition-all duration-200">
                   <div className="flex flex-col text-center">
                     <p className="text-white text-xl font-bold">DMKAS</p>
                     <p>
@@ -57,17 +57,24 @@ export default function Home() {
           <p className="text-6xl sm:text-8xl md:text-9xl">ME</p>
         </div>
         <div className="flex flex-col justify-center text-white gap-10 pr-10 pl-2">
-          <div className="flex flex-col justify-center text-lg sm:text-2xl">
+          <div className="flex flex-col justify-center text-xl sm:text-3xl">
             <p>
-              My name is <strong>Domas.</strong>
+              My name is <strong className="text-indigo-200">Domas.</strong>
             </p>
-            <p>I am a frontend developer.</p>
-            <p>I like to code.</p>
-            <p>I like to design.</p>
+            <p>
+              I am a <span className="text-indigo-200">frontend</span> and{" "}
+              <span className="text-indigo-200">backend</span> developer.
+            </p>
+            <p>
+              I like to <span className="text-indigo-200">code</span>.
+            </p>
+            <p>
+              I like to <span className="text-indigo-200">design.</span>
+            </p>
           </div>
           <div className="flex flex-col">
-            <p>Technologies I use:</p>
-            <ul className="list-disc">
+            <p className="text-3xl">Technologies I use:</p>
+            <ul className="list-disc text-xl">
               <li>
                 <Link href="https://react.dev/" className="hover:underline">
                   React
