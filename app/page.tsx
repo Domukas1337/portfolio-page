@@ -6,8 +6,8 @@ export default function Home() {
     <main>
       <div className="flex flex-col justify-center h-screen first-background text-6xl sm:text-8xl md:text-9xl text-white pl-2">
         <div className="jumpoutfadein">
-          <p>DESIGNING</p>
-          <p>RESPONSIVE</p>
+          <p>DESIGNING &</p>
+          <p>PROGRAMMING</p>
           <p>WEBSITES.</p>
         </div>
       </div>

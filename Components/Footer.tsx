@@ -22,7 +22,7 @@ export default function Footer() {
         </Link>
         <div className="flex flex-col pl-4">
           <h1 className="text-md sm:text-2xl dmkas">ELIV</h1>
-          <p className="text-sm">DESIGNING RESPONSIVE WEBSITES.</p>
+          <p className="text-sm">DESIGNING & PROGRAMMING WEBSITES.</p>
         </div>
         <div className="flex flex-row ml-auto gap-2">
           <Link
