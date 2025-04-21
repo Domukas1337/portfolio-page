@@ -11,7 +11,7 @@ export default function Home() {
           <p>WEBSITES.</p>
         </div>
       </div>
-      <div className="flex flex-col justify-center h-screen second-background text-white pl-2">
+      <div className="flex flex-col justify-center h-screen second-background text-white">
         <div className="flex justify-center flex-wrap">
           <div className="relative group">
             <Link
@@ -47,7 +47,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <p className="text-xl text-center sm:text-2xl">
+        <p className="text-base text-center md:text-lg xl:text-xl">
           Click an image to learn more!
         </p>
       </div>
