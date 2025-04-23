@@ -22,8 +22,9 @@ body {
 }
 
 .jumpoutfadein {
-  animation: jumpoutfadein 0.8s ease-in-out;
+  animation: jumpoutfadein var(--time) ease-in-out;
 }
+
 .dmkas {
   letter-spacing: 10px;
 }

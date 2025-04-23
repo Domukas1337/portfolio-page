@@ -8,7 +8,10 @@ export default function ButtonIcon({
   children: React.ReactNode;
 }) {
   return (
-    <Link href={href} className="border border-white rounded-xl px-2 py-1">
+    <Link
+      href={href}
+      className="border border-white rounded-xl px-2 py-1 hover:bg-white hover:text-black transition-colors"
+    >
       {children}
     </Link>
   );

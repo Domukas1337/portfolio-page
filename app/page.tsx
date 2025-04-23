@@ -1,4 +1,5 @@
 import ButtonIcon from "@/Components/ButtonIcon";
+import FadeIn from "@/Components/Fadein";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,38 +15,52 @@ export default function Home() {
       </div>
       <div className="flex flex-col justify-center h-screen second-background text-white">
         <div className="flex justify-center flex-wrap">
-          <div className="relative group">
-            <Link
-              href="https://github.com/Domukas1337/bloggy"
-              className="sm:hover:scale-105 transition-all block"
-            >
-              <Image src="/bloggy.png" alt="bloggy" width={700} height={600} />
-              <div className="absolute inset-2 rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-sm transition-all duration-200">
-                <div className="flex flex-col text-center">
-                  <p className="text-white text-xl font-bold">Bloggy</p>
-                  <p>A blog built with Next.js, Supabase, and Tailwind.</p>
-                </div>
-              </div>
-            </Link>
-          </div>
-          <div className="flex justify-center flex-wrap">
+          <FadeIn time={0.6}>
             <div className="relative group">
               <Link
-                href="https://github.com/Domukas1337/dmkas-app"
+                href="https://github.com/Domukas1337/bloggy"
                 className="sm:hover:scale-105 transition-all block"
               >
-                <Image src="/dmkas.png" alt="dmkas" width={700} height={600} />
+                <Image
+                  src="/bloggy.png"
+                  alt="bloggy"
+                  width={700}
+                  height={600}
+                />
                 <div className="absolute inset-2 rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-sm transition-all duration-200">
                   <div className="flex flex-col text-center">
-                    <p className="text-white text-xl font-bold">DMKAS</p>
-                    <p>
-                      An anime search engine built with Vite, Tailwind, and
-                      JIKAN API.
-                    </p>
+                    <p className="text-white text-xl font-bold">Bloggy</p>
+                    <p>A blog built with Next.js, Supabase, and Tailwind.</p>
                   </div>
                 </div>
               </Link>
             </div>
+          </FadeIn>
+          <div className="flex justify-center flex-wrap">
+            <FadeIn time={0.9}>
+              <div className="relative group">
+                <Link
+                  href="https://github.com/Domukas1337/dmkas-app"
+                  className="sm:hover:scale-105 transition-all block"
+                >
+                  <Image
+                    src="/dmkas.png"
+                    alt="dmkas"
+                    width={700}
+                    height={600}
+                  />
+                  <div className="absolute inset-2 rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-sm transition-all duration-200">
+                    <div className="flex flex-col text-center">
+                      <p className="text-white text-xl font-bold">DMKAS</p>
+                      <p>
+                        An anime search engine built with Vite, Tailwind, and
+                        JIKAN API.
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </FadeIn>
           </div>
         </div>
         <p className="text-base text-center md:text-lg xl:text-xl">
