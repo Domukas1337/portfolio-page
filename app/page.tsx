@@ -1,3 +1,4 @@
+import ButtonIcon from "@/Components/ButtonIcon";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -62,44 +63,28 @@ export default function Home() {
               My name is <strong className="text-indigo-200">Domas.</strong>
             </p>
             <p>
-              I am a <span className="text-indigo-200">frontend</span> and{" "}
+              I am a <span className="text-indigo-200">frontend</span> &{" "}
               <span className="text-indigo-200">backend</span> developer.
-            </p>
-            <p>
-              I like to <span className="text-indigo-200">code</span>.
-            </p>
-            <p>
-              I like to <span className="text-indigo-200">design.</span>
             </p>
           </div>
           <div className="flex flex-col">
             <p className="text-3xl">Technologies I use:</p>
-            <ul className="list-disc text-xl">
-              <li>
-                <Link href="https://react.dev/" className="hover:underline">
-                  React
-                </Link>
+            <ul className="flex flex-row flex-wrap text-xl pt-4 gap-2">
+              <li className="pt-2">
+                <ButtonIcon href="https://react.dev/">React</ButtonIcon>
               </li>
-              <li>
-                <Link href="https://nextjs.org/" className="hover:underline">
-                  NextJS
-                </Link>
+              <li className="pt-2">
+                <ButtonIcon href="https://nextjs.org/">NextJS</ButtonIcon>
               </li>
-              <li>
-                <Link
-                  href="https://tailwindcss.com/"
-                  className="hover:underline"
-                >
+              <li className="pt-2">
+                <ButtonIcon href="https://tailwindcss.com/">
                   TailwindCSS
-                </Link>
+                </ButtonIcon>
               </li>
-              <li>
-                <Link
-                  href="https://typescriptlang.org/"
-                  className="hover:underline"
-                >
+              <li className="pt-2">
+                <ButtonIcon href="https://typescriptlang.org/">
                   Typescript
-                </Link>
+                </ButtonIcon>
               </li>
             </ul>
           </div>
