@@ -30,7 +30,7 @@ export default function Home() {
                 <div className="absolute inset-2 rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-sm transition-all duration-200">
                   <div className="flex flex-col text-center">
                     <p className="text-white text-xl font-bold">Bloggy</p>
-                    <p>A blog built with Next.js, Supabase, and Tailwind.</p>
+                    <p>Simple blog site for everyone to use.</p>
                   </div>
                 </div>
               </Link>
@@ -52,10 +52,7 @@ export default function Home() {
                   <div className="absolute inset-2 rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-sm transition-all duration-200">
                     <div className="flex flex-col text-center">
                       <p className="text-white text-xl font-bold">DMKAS</p>
-                      <p>
-                        An anime search engine built with Vite, Tailwind, and
-                        JIKAN API.
-                      </p>
+                      <p>An anime search engine built using the JIKAN API.</p>
                     </div>
                   </div>
                 </Link>
