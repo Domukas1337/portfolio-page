@@ -6,18 +6,17 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      <div className="flex flex-col justify-center h-screen text-white pl-2">
-        <div className="flex justify-center ">
-          <div className="text-center">
-            <h1 className="text-4xl sm:text-6xl md:text-8xl font-black">
-              DOMAS MICKEVIC
-            </h1>
-            <p className="text-base sm:text-xl md:text-2xl mt-4">
-              FRONT-END, BACKEND DEVELOPER
-            </p>
-          </div>
+      <div className="flex flex-col justify-center h-screen text-white">
+        <div className="text-center">
+          <h1 className="text-4xl sm:text-6xl md:text-8xl font-black">
+            DOMAS MICKEVIC
+          </h1>
+          <p className="text-base sm:text-xl md:text-2xl mt-4">
+            FRONT-END, BACKEND DEVELOPER
+          </p>
         </div>
       </div>
+
       <div className="flex flex-col justify-center h-screen text-white">
         <div className="flex justify-center flex-wrap">
           <FadeIn time={0.6}>
@@ -71,6 +70,7 @@ export default function Home() {
           </p>
         </FadeIn>
       </div>
+
       <div className="flex flex-col sm:flex-row justify-center sm:justify-between h-screen">
         <div className="flex flex-col justify-center text-white pl-2">
           <p className="text-6xl sm:text-8xl md:text-9xl">ABOUT</p>
