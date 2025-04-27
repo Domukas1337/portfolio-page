@@ -21,6 +21,10 @@ body {
   }
 }
 
+.jumpoutfadein-basic {
+  animation: jumpoutfadein 1s ease-in-out;
+}
+
 .jumpoutfadein {
   animation: jumpoutfadein var(--time) ease-in-out;
 }

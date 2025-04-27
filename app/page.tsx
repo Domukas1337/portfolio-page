@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main>
       <div className="flex flex-col justify-center h-screen text-white">
-        <div className="text-center">
+        <div className="text-center jumpoutfadein-basic">
           <h1 className="text-4xl sm:text-6xl md:text-8xl font-black">
             DOMAS MICKEVIC
           </h1>
@@ -17,7 +17,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center h-screen text-white">
+      <div className="flex flex-col justify-center h-screen gap-10 text-white">
+        <FadeIn time={0.5}>
+          <h1 className="text-2xl sm:text-4xl md:text-6xl font-black text-center">
+            PROJECTS
+          </h1>
+        </FadeIn>
         <div className="flex justify-center flex-wrap">
           <FadeIn time={0.6}>
             <div className="relative group">
