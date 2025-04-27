@@ -29,14 +29,6 @@ body {
   letter-spacing: 10px;
 }
 
-.second-background {
-  background-image: url("/11.jpg");
-  background-size: cover;
-}
-.third-background {
-  background-image: url("/12.jpg");
-  background-size: cover;
-}
 .first-background {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;

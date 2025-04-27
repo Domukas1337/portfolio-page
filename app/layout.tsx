@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${oxygenMono.variable} antialiased`}>
-      <body>
+      <body className="first-background">
         <Navbar />
         {children}
         <Footer />
