@@ -21,7 +21,7 @@ export default function Footer() {
           />
         </Link>
         <div className="flex flex-col pl-4">
-          <h1 className="text-md sm:text-2xl dmkas">ELIV</h1>
+          <h1 className="text-md sm:text-2xl dmkas">DOMUKAS</h1>
           <p className="text-sm">DESIGNING & PROGRAMMING WEBSITES.</p>
         </div>
         <div className="flex flex-row ml-auto gap-2">

@@ -93,7 +93,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col">
             <p className="text-3xl">Technologies I use:</p>
-            <ul className="flex flex-row flex-wrap text-xl pt-4 gap-2">
+            <ul className="flex flex-row flex-wrap text-xl gap-2">
               <li className="pt-2">
                 <ButtonIcon href="https://react.dev/">React</ButtonIcon>
               </li>

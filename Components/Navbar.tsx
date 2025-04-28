@@ -13,7 +13,7 @@ export default function Navbar() {
         const rect = element.getBoundingClientRect();
         if (rect.top < window.innerHeight) {
           setIsOverlapped(true);
-        } else if (rect.top > window.innerHeight) {
+        } else {
           setIsOverlapped(false);
         }
       }
@@ -34,7 +34,7 @@ export default function Navbar() {
           <span className="font-bold text-cyan-200 hover:text-cyan-400 transition-colors">
             Domukas
           </span>
-          {" />"}
+          {"/>"}
         </Link>
       </div>
     </nav>
