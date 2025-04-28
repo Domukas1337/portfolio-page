@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
   description: "ELIV Portfolio",
   icons: {
-    icon: "/favicon.svg",
+    icon: "/favicon.png",
   },
 };
 
