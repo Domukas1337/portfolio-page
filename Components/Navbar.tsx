@@ -26,7 +26,7 @@ export default function Navbar() {
       <div className="flex justify-center py-4 px-3 text-white">
         <Link
           href="/"
-          className={`px-3 py-2 rounded-2xl ${
+          className={`px-3 py-2 rounded-2xl font-oxygen-mono ${
             isOverlapped ? "bg-black/50 backdrop-blur-lg" : ""
           } transition-colors`}
         >
@@ -34,7 +34,7 @@ export default function Navbar() {
           <span className="font-bold text-cyan-200 hover:text-cyan-400 transition-colors">
             Domukas
           </span>
-          {"/>"}
+          {" />"}
         </Link>
       </div>
     </nav>

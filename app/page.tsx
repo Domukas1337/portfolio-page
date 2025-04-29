@@ -9,7 +9,7 @@ export default function Home() {
       <div className="flex flex-col justify-center h-screen text-white">
         <div className="text-center jumpoutfadein-basic">
           <h1 className="text-4xl sm:text-6xl md:text-8xl font-black">
-            DOMAS MICKEVIC
+            DOMAS MICKEVIČ
           </h1>
           <p className="text-base sm:text-xl md:text-2xl mt-4">
             FRONT-END, BACKEND DEVELOPER
@@ -70,30 +70,31 @@ export default function Home() {
           </div>
         </div>
         <FadeIn time={1.2}>
-          <p className="text-base text-center md:text-lg xl:text-xl">
+          <p className="text-lg text-center md:text-xl xl:text-2xl font-semibold">
             Click an image to learn more!
           </p>
         </FadeIn>
       </div>
 
       <div className="flex flex-col sm:flex-row justify-center sm:justify-between h-screen">
-        <div className="flex flex-col justify-center text-white pl-2">
+        <div className="flex flex-col justify-center text-white pl-2 font-bold">
           <p className="text-6xl sm:text-8xl md:text-9xl">ABOUT</p>
           <p className="text-6xl sm:text-8xl md:text-9xl">ME</p>
         </div>
         <div className="flex flex-col justify-center text-white gap-10 pr-10 pl-2">
-          <div className="flex flex-col justify-center text-xl sm:text-3xl">
+          <div className="flex flex-col justify-center text-xl sm:text-3xl font-semibold">
             <p>
               My name is <strong className="text-indigo-200">Domas.</strong>
             </p>
             <p>
-              I am a <span className="text-indigo-200">frontend</span> &{" "}
-              <span className="text-indigo-200">backend</span> developer.
+              I am a <span className="text-indigo-200 font-bold">frontend</span>{" "}
+              & <span className="text-indigo-200 font-bold">backend</span>{" "}
+              developer.
             </p>
           </div>
-          <div className="flex flex-col">
-            <p className="text-3xl">Technologies I use:</p>
-            <ul className="flex flex-row flex-wrap text-xl gap-2">
+          <div className="flex flex-col ">
+            <p className="text-3xl font-bold">Technologies I use:</p>
+            <ul className="flex flex-row flex-wrap text-xl gap-2 font-oxygen-mono">
               <li className="pt-2">
                 <ButtonIcon href="https://react.dev/">React</ButtonIcon>
               </li>
