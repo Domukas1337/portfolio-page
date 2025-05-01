@@ -11,7 +11,7 @@ export default function Navbar() {
       const element = document.querySelector(".fade-in");
       if (element) {
         const rect = element.getBoundingClientRect();
-        if (rect.top < window.innerHeight) {
+        if (rect.top + 200 < window.innerHeight) {
           setIsOverlapped(true);
         } else {
           setIsOverlapped(false);
