@@ -1,5 +1,11 @@
-import ButtonIcon from "@/Components/ButtonIcon";
+import ProgramingLanguageIcon from "@/Components/ProgramingLanguageIcon";
 import FadeIn from "@/Components/Fadein";
+
+import { FaReact } from "react-icons/fa6";
+import { RiNextjsFill } from "react-icons/ri";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -76,12 +82,9 @@ export default function Home() {
         </FadeIn>
       </div>
 
-      <div className="flex flex-col sm:flex-row justify-center sm:justify-between h-screen">
-        <div className="flex flex-col justify-center text-white pl-2 font-bold">
-          <p className="text-6xl sm:text-8xl md:text-9xl">ABOUT</p>
-          <p className="text-6xl sm:text-8xl md:text-9xl">ME</p>
-        </div>
-        <div className="flex flex-col justify-center text-white gap-10 pr-10 pl-2">
+      <div className="flex justify-center h-screen">
+        <div className="flex flex-col justify-center text-white gap-10 pr-10 pl-2 text-center">
+          <p className="text-6xl sm:text-8xl md:text-9xl font-bold">ABOUT ME</p>
           <div className="flex flex-col justify-center text-xl sm:text-3xl font-semibold">
             <p>
               My name is <strong className="text-indigo-200">Domas.</strong>
@@ -92,26 +95,28 @@ export default function Home() {
               developer.
             </p>
           </div>
-          <div className="flex flex-col ">
+          <div className="flex flex-col gap-2">
             <p className="text-3xl font-bold">Technologies I use:</p>
-            <ul className="flex flex-row flex-wrap text-xl gap-2 font-oxygen-mono">
-              <li className="pt-2">
-                <ButtonIcon href="https://react.dev/">React</ButtonIcon>
-              </li>
-              <li className="pt-2">
-                <ButtonIcon href="https://nextjs.org/">NextJS</ButtonIcon>
-              </li>
-              <li className="pt-2">
-                <ButtonIcon href="https://tailwindcss.com/">
-                  TailwindCSS
-                </ButtonIcon>
-              </li>
-              <li className="pt-2">
-                <ButtonIcon href="https://typescriptlang.org/">
-                  Typescript
-                </ButtonIcon>
-              </li>
-            </ul>
+            <div className="flex flex-row gap-2 justify-center text-3xl">
+              <ProgramingLanguageIcon link="https://react.dev/" color="cyan">
+                <FaReact />
+              </ProgramingLanguageIcon>
+              <ProgramingLanguageIcon link="https://nextjs.org/">
+                <RiNextjsFill />
+              </ProgramingLanguageIcon>
+              <ProgramingLanguageIcon
+                link="https://www.typescriptlang.org/"
+                color="sky"
+              >
+                <SiTypescript />
+              </ProgramingLanguageIcon>
+              <ProgramingLanguageIcon
+                link="https://tailwindcss.com/"
+                color="cyan"
+              >
+                <RiTailwindCssFill />
+              </ProgramingLanguageIcon>
+            </div>
           </div>
         </div>
       </div>
