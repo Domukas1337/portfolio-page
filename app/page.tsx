@@ -12,8 +12,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      <div className="flex flex-col justify-center h-screen text-white">
-        <div className="text-center jumpoutfadein-basic">
+      <div className="flex flex-col justify-center h-screen">
+        <div className="text-center jumpoutfadein-basic text-white">
           <h1 className="text-4xl sm:text-6xl md:text-8xl font-black">
             DOMAS MICKEVIČ
           </h1>
