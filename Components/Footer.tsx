@@ -6,7 +6,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer className="bg-red-300/20 flex flex-col">
+    <footer className="flex flex-col backdrop-blur-sm">
       <div className="flex items-center m-4">
         <Link
           href="https://github.com/Domukas1337"
