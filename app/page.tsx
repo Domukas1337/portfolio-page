@@ -17,7 +17,7 @@ export default function Home() {
           <h1 className="text-4xl sm:text-6xl md:text-8xl font-black">
             DOMAS MICKEVIČ
           </h1>
-          <p className="text-base sm:text-xl md:text-2xl mt-4">
+          <p className="text-base sm:text-xl md:text-2xl font-bold mt-4">
             FRONT-END, BACKEND DEVELOPER
           </p>
         </div>
@@ -76,15 +76,17 @@ export default function Home() {
           </div>
         </div>
         <FadeIn time={1.2}>
-          <p className="text-lg text-center md:text-xl xl:text-2xl font-semibold">
+          <p className="text-lg text-center md:text-xl xl:text-2xl font-black">
             Click an image to learn more!
           </p>
         </FadeIn>
       </div>
 
       <div className="flex justify-center h-screen">
-        <div className="flex flex-col justify-center text-white gap-10 pr-10 pl-2 text-center">
-          <p className="text-6xl sm:text-8xl md:text-9xl font-bold">ABOUT ME</p>
+        <div className="flex flex-col justify-center text-white gap-10 text-center">
+          <p className="text-6xl sm:text-8xl md:text-9xl font-black">
+            ABOUT ME
+          </p>
           <div className="flex flex-col justify-center text-xl sm:text-3xl font-semibold">
             <p>
               My name is <strong className="text-indigo-200">Domas.</strong>
@@ -101,12 +103,12 @@ export default function Home() {
               <ProgramingLanguageIcon link="https://react.dev/" color="cyan">
                 <FaReact />
               </ProgramingLanguageIcon>
-              <ProgramingLanguageIcon link="https://nextjs.org/">
+              <ProgramingLanguageIcon link="https://nextjs.org/" color="cyan">
                 <RiNextjsFill />
               </ProgramingLanguageIcon>
               <ProgramingLanguageIcon
                 link="https://www.typescriptlang.org/"
-                color="sky"
+                color="cyan"
               >
                 <SiTypescript />
               </ProgramingLanguageIcon>
