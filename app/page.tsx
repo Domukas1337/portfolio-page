@@ -4,7 +4,7 @@ import FadeIn from "@/Components/Fadein";
 import { FaReact } from "react-icons/fa6";
 import { RiNextjsFill } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiTypescript } from "react-icons/si";
+import { SiPython, SiTypescript } from "react-icons/si";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -117,6 +117,9 @@ export default function Home() {
                 color="cyan"
               >
                 <RiTailwindCssFill />
+              </ProgramingLanguageIcon>
+              <ProgramingLanguageIcon link="https://python.org/" color="cyan">
+                <SiPython />
               </ProgramingLanguageIcon>
             </div>
           </div>
