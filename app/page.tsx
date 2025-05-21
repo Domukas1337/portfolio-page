@@ -42,7 +42,7 @@ export default function Home() {
                   width={700}
                   height={600}
                 />
-                <div className="absolute inset-2 rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-sm transition-all duration-200">
+                <div className="absolute inset-2 rounded-xl flex items-center justify-center opacity-0 sm:group-hover:opacity-100 sm:group-hover:backdrop-blur-sm transition-all duration-200">
                   <div className="flex flex-col text-center">
                     <p className="text-white text-xl font-bold">Bloggy</p>
                     <p>Simple blog site for everyone to use.</p>
@@ -64,7 +64,7 @@ export default function Home() {
                     width={700}
                     height={600}
                   />
-                  <div className="absolute inset-2 rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-sm transition-all duration-200">
+                  <div className="absolute inset-2 rounded-xl flex items-center justify-center opacity-0 sm:group-hover:opacity-100 sm:group-hover:backdrop-blur-sm transition-all duration-200">
                     <div className="flex flex-col text-center">
                       <p className="text-white text-xl font-bold">DMKAS</p>
                       <p>An anime search engine built using the JIKAN API.</p>
