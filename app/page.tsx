@@ -99,7 +99,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-2">
             <p className="text-3xl font-bold">Technologies I use:</p>
-            <div className="flex flex-row gap-2 justify-center text-3xl">
+            <div className="flex flex-row gap-2 justify-center text-2xl sm:text-3xl md:text-4xl">
               <ProgramingLanguageIcon link="https://react.dev/" color="cyan">
                 <FaReact />
               </ProgramingLanguageIcon>
