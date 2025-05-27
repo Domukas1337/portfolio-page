@@ -40,13 +40,30 @@ body {
 }
 
 .first-background {
-  background-color: #a4a4b3;
-  opacity: 1;
-  background-image: radial-gradient(#c444f7 0.5px, #50509d 0.5px);
-  background-size: 10px 10px;
-  z-index: -1;
+  background-color: #eee5f7;
+  opacity: 0.8;
+  background: radial-gradient(
+      circle,
+      transparent 20%,
+      #000000 20%,
+      #000000 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 20%,
+        #000000 20%,
+        #000000 80%,
+        transparent 80%,
+        transparent
+      )
+      25px 25px,
+    linear-gradient(#404495 2px, transparent 2px) 0 -1px,
+    linear-gradient(90deg, #404495 2px, #000000 2px) -1px 0;
+  background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
 }
 
 html {
-  background-color: #50509d;
+  background-color: #42244e;
 }

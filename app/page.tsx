@@ -23,7 +23,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center h-screen gap-10 text-white">
+      <div className="flex flex-col justify-center md:h-screen gap-10 text-white">
         <FadeIn time={0.5}>
           <h1 className="text-2xl sm:text-4xl md:text-6xl font-black text-center">
             PROJECTS
