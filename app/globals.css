@@ -59,8 +59,8 @@ body {
         transparent
       )
       25px 25px,
-    linear-gradient(#404495 2px, transparent 2px) 0 -1px,
-    linear-gradient(90deg, #404495 2px, #000000 2px) -1px 0;
+    linear-gradient(#3d3f5b 2px, transparent 2px) 0 -1px,
+    linear-gradient(90deg, #3d3f5b 2px, #000000 2px) -1px 0;
   background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
 }
 
