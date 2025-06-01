@@ -33,7 +33,7 @@ export default function Home() {
           <FadeIn time={0.6}>
             <div className="relative group">
               <Link
-                href="https://github.com/Domukas1337/bloggy"
+                href="/bloggy"
                 className="sm:hover:scale-105 transition-all block"
               >
                 <Image
@@ -55,7 +55,7 @@ export default function Home() {
             <FadeIn time={0.9}>
               <div className="relative group">
                 <Link
-                  href="https://github.com/Domukas1337/dmkas-app"
+                  href="/dmkas"
                   className="sm:hover:scale-105 transition-all block"
                 >
                   <Image
