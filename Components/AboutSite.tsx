@@ -17,13 +17,12 @@ export default function AboutSite({
   return (
     <div className="flex flex-col justify-center items-center h-screen">
       <Image src={image} alt={title} width={700} height={700} />
-      <div className="flex flex-col justify-center">
-        <p className="mt-4 text-4xl font-bold">{description}</p>
-        <div className="flex justify-center mt-4">
+      <div className="flex flex-col justify-center items-center">
+        <div className="flex justify-center items-center">
           <ul className="flex flex-row gap-4 font-bold">
             {features.map((feature, index) => (
               <li
-                className="text-2xl border rounded-lg p-2 backdrop-blur-2xl"
+                className="text-md border rounded-lg p-0.5 px-2 backdrop-blur-2xl"
                 key={index}
               >
                 {feature}
@@ -31,6 +30,7 @@ export default function AboutSite({
             ))}
           </ul>
         </div>
+        <p className="mt-4 text-4xl font-bold">{description}</p>
         <div className="flex justify-center mt-4">
           <a href={link} className="text-4xl">
             <FaSquareGithub />
