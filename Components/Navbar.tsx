@@ -1,41 +1,24 @@
-"use client";
-
+import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 
 export default function Navbar() {
-  const [isOverlapped, setIsOverlapped] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const element = document.querySelector(".fade-in");
-      if (element) {
-        const rect = element.getBoundingClientRect();
-        if (rect.top + 200 < window.innerHeight) {
-          setIsOverlapped(true);
-        } else {
-          setIsOverlapped(false);
-        }
-      }
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
   return (
-    <nav className="fixed z-10 top-0 left-0 w-full text-xl sm:text-3xl">
-      <div className="flex justify-center py-4 px-3 text-white">
-        <Link
-          href="/"
-          className={`px-3 py-2 rounded-2xl font-oxygen-mono ${
-            isOverlapped ? "bg-black/50 backdrop-blur-lg" : ""
-          } transition-all duration-200 ease-in-out`}
-        >
+    <nav className="fixed top-0 left-0 right-0 backdrop-blur-3xl shadow-2xl mx-24 mt-2 rounded-2xl z-50">
+      <div className="flex justify-between items-center py-4 px-3 text-white">
+        <Link href="/" className="rounded-2xl font-oxygen-mono">
           {"<"}
           <span className="font-bold text-cyan-200 hover:text-cyan-400 transition-colors">
             Domukas
           </span>
           {" />"}
         </Link>
+        <Image
+          src="/favicon.png"
+          alt="logo"
+          width={25}
+          height={25}
+          className="rounded-sm"
+        />
       </div>
     </nav>
   );
