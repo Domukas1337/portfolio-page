@@ -12,7 +12,7 @@ export default function InformationCont({
   icon: React.ReactNode;
 }) {
   return (
-    <div className="flex flex-col w-1/4 bg-gray-800/50 backdrop-blur-3xl px-10 py-8 rounded-2xl shadow-2xl">
+    <div className="flex flex-col w-fit lg:w-1/4 bg-gray-800/50 backdrop-blur-3xl px-10 py-8 rounded-2xl shadow-2xl mx-2">
       {icon}
       <h1 className="text-2xl font-black mt-2">{header}</h1>
       <p className="text-gray-300 mt-2">{description}</p>

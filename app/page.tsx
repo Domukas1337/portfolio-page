@@ -40,7 +40,7 @@ export default function Home() {
             wanna look ;)
           </p>
         </div>
-        <div className="flex flex-row w-screen justify-center gap-10 my-8">
+        <div className="flex flex-col md:flex-row w-screen justify-center gap-10 my-10">
           <InformationCont
             icon={<IoIosInformationCircle className="text-2xl md:text-3xl" />}
             header="About"
