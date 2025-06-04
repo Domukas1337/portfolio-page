@@ -12,13 +12,21 @@ export default function Navbar() {
           </span>
           {" />"}
         </Link>
-        <Image
-          src="/favicon.png"
-          alt="logo"
-          width={25}
-          height={25}
-          className="rounded-sm"
-        />
+        <div className="flex gap-2">
+          <Link
+            href="/credits"
+            className="rounded-2xl hover:text-cyan-400 transition-colors"
+          >
+            Credits
+          </Link>
+          <Image
+            src="/favicon.png"
+            alt="logo"
+            width={25}
+            height={25}
+            className="rounded-sm"
+          />
+        </div>
       </div>
     </nav>
   );

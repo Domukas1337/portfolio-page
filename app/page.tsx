@@ -14,6 +14,7 @@ export default function Home() {
           className="absolute h-screen top-0 left-0 chibi-background fade-in object-cover"
           fill
           priority
+          unoptimized
         />
         <div
           className="ml-2 sm:ml-10 text-white z-10 fadein"
@@ -26,6 +27,9 @@ export default function Home() {
             Hello, I am Domukas. With more than three years of experience, I
             specialize in creating user-friendly, responsive, full-stack
             websites. Self-taught programmer and designer.
+          </p>
+          <p className="text-md sm:text-lg md:text-xl mt-4 font-black">
+            Scroll down ↓
           </p>
         </div>
       </div>
