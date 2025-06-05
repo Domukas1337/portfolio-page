@@ -19,8 +19,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "ELIV Portfolio",
-    template: "%s | ELIV Portfolio",
+    template: "%s | domukas",
+    default: "domukas",
   },
   description: "ELIV Portfolio",
   icons: {

@@ -1,5 +1,9 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "404",
+};
+
 export default function NotFound() {
   return (
     <div className="flex flex-col justify-center items-center h-screen">

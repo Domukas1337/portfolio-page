@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { FaSquareGithub } from "react-icons/fa6";
-import { FaSquareXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -30,12 +29,6 @@ export default function Footer() {
             className="hover:scale-105 transition-all"
           >
             <FaSquareGithub className="text-3xl" />
-          </Link>
-          <Link
-            href="https://x.com/eliv1337"
-            className="hover:scale-105 transition-all"
-          >
-            <FaSquareXTwitter className="text-3xl" />
           </Link>
         </div>
       </div>

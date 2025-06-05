@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Credits",
+};
+
 export default function Projects() {
   return (
     <div className="flex flex-col justify-center items-center h-screen">

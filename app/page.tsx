@@ -4,6 +4,10 @@ import { FaDev } from "react-icons/fa";
 import Image from "next/image";
 import InformationCont from "@/Components/InformationCont";
 
+export const metadata = {
+  title: "Home | domukas",
+};
+
 export default function Home() {
   return (
     <main>
