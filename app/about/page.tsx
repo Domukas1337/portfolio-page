@@ -46,7 +46,7 @@ export default function About() {
         </p>
       </div>
 
-      <div className="flex flex-col justify-center items-center mx-8 lg:mx-0 gap-2 mt-8">
+      <div className="flex flex-col justify-center items-center mx-8 lg:mx-0 gap-2 mt-8 mb-32">
         <h1 className="text-2xl lg:text-3xl font-black my-6">Experience</h1>
         <Experience
           experienceFrom="2022"

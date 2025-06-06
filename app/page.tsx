@@ -38,7 +38,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center">
+      <div className="flex flex-col justify-center mb-32">
         <div className="ml-2 sm:ml-10 text-white">
           <h1 className="text-xl sm:text-3xl md:text-4xl font-black">
             Check out various information pages!

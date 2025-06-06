@@ -32,7 +32,7 @@ export default function Projects() {
         </p>
       </div>
 
-      <div className="flex flex-col justify-center mx-0 md:mx-10 rounded-t-2xl border backdrop-blur-3xl mb-52">
+      <div className="flex flex-col justify-center mx-0 md:mx-10 rounded-t-2xl border backdrop-blur-3xl mb-64">
         <table className="w-full">
           <thead className="border-b ">
             <tr>
@@ -66,7 +66,7 @@ export default function Projects() {
                   href="/"
                   className="uppercase font-bold hover:text-pink-400"
                 >
-                  Link
+                  Home
                 </Link>
                 <span> - </span>
                 <Link
