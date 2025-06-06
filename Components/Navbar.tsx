@@ -7,11 +7,11 @@ export default function Navbar() {
         <Link href="/" className="rounded-2xl font-oxygen-mono">
           {"<"}
           <span className="font-bold text-cyan-200 hover:text-cyan-400 transition-colors">
-            Domukas
+            Home
           </span>
           {" />"}
         </Link>
-        <div className="flex gap-2">
+        <div className="flex">
           <Link href="/credits" className="rounded-2xl font-oxygen-mono">
             {"<"}
             <span className="font-bold text-cyan-200 hover:text-purple-200 transition-colors">
