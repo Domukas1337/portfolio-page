@@ -9,7 +9,15 @@ export default function About() {
   return (
     <main className="flex flex-col mt-24">
       <div className="flex flex-col lg:flex-row justify-center items-center mx-8 lg:mx-0 gap-2">
-        <div>
+        <Image
+          src="/chibi.gif"
+          alt="chibi"
+          className="absolute h-screen top-0 left-0 chibi-background fade-in object-cover"
+          fill
+          priority
+          unoptimized
+        />
+        <div className="z-10">
           <h1 className="text-3xl md:text-6xl font-black">I&apos;m Domukas</h1>
           <p className="text-lg md:text-2xl text-gray-300 w-1/2">
             Developer, designer & creative enthusiast passionate about building
@@ -21,13 +29,13 @@ export default function About() {
           alt="profile"
           width={200}
           height={100}
-          className="rounded-full bg-black border-2 border-gray-300"
+          className="rounded-full bg-black border-2 border-gray-300 z-10"
         />
       </div>
 
-      <div className="flex flex-col justify-center items-center mx-8 lg:mx-0 gap-2 mt-8">
+      <div className="flex flex-col justify-center items-center mx-8 lg:mx-0 gap-2 mt-8 z-10">
         <h1 className="text-2xl lg:text-3xl font-black my-6">About Me</h1>
-        <p className="text-base bg-gray-800/50 text-gray-300 px-10 py-8 rounded-2xl shadow-2xl w-full lg:w-2/3 font-bold">
+        <p className="text-base bg-gray-800/50 backdrop-blur-2xl text-gray-300 px-10 py-8 rounded-2xl shadow-2xl w-full lg:w-2/3 font-bold">
           Hello! I&apos;m a passionate developer with a love for creating
           beautiful and functional websites. I specialize in full-stack
           development, UI/UX design. With several years of experience, I have

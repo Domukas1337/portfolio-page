@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
 export const metadata = {
   title: "Credits",
 };
@@ -5,7 +8,15 @@ export const metadata = {
 export default function Projects() {
   return (
     <main className="flex flex-col gap-24">
-      <div className="flex flex-col justify-center mt-40 md:ml-10 mx-10 md:mx-0">
+      <Image
+        src="/chibi.gif"
+        alt="chibi"
+        className="absolute h-screen top-0 left-0 chibi-background fade-in object-cover"
+        fill
+        priority
+        unoptimized
+      />
+      <div className="flex flex-col justify-center mt-40 md:ml-10 mx-10 md:mx-0 z-10">
         <h1 className="text-4xl md:text-6xl font-black">Domukas Projects</h1>
         <p className="w-full md:w-1/2 text-2xl font-medium mt-2 text-gray-300">
           I&apos;ve coded a lot of stuff... here you can see almost
@@ -14,16 +25,16 @@ export default function Projects() {
         </p>
       </div>
 
-      <div className="flex flex-col justify-center md:ml-10 mx-10 md:mx-0">
+      <div className="flex flex-col justify-center md:ml-10 mx-10 md:mx-0 z-10">
         <h1 className="text-xl md:text-3xl font-black">Active Projects</h1>
         <p className="w-full md:w-1/2 text-lg font-medium mt-2 text-gray-300">
           Projects that I&apos;m currently working on.
         </p>
       </div>
 
-      <div className="flex flex-col justify-center mx-0 md:mx-10 rounded-3xl border bg-purple-300/30">
+      <div className="flex flex-col justify-center mx-0 md:mx-10 rounded-t-2xl border backdrop-blur-3xl mb-52">
         <table className="w-full">
-          <thead>
+          <thead className="border-b ">
             <tr>
               <th className="py-3 px-4 text-left text-xs font-semibold uppercase tracking-wider">
                 Name
@@ -39,6 +50,44 @@ export default function Projects() {
               </th>
             </tr>
           </thead>
+          <tbody>
+            <tr className="border-b bg-pink-700/10">
+              <td className="py-3 px-4 text-sm">Portfolio Page</td>
+              <td className="py-3 px-4 text-sm">
+                Page to get information about me (current page)
+              </td>
+              <td className="py-3 px-4 text-sm">
+                <span className="bg-gray-500/50 px-2 py-1 rounded-full text-green-300">
+                  Website
+                </span>
+              </td>
+              <td className="py-3 px-4 text-sm">
+                <Link
+                  href="/"
+                  className="uppercase font-bold hover:text-pink-400"
+                >
+                  Link
+                </Link>
+                <span> - </span>
+                <Link
+                  href="https://github.com/Domukas1337/portfolio-page"
+                  className="uppercase font-bold hover:text-pink-400"
+                >
+                  Github
+                </Link>
+              </td>
+            </tr>
+            <tr className="bg-pink-700/10">
+              <td className="py-3 px-4 text-sm">Project 1</td>
+              <td className="py-3 px-4 text-sm">Description of project 1</td>
+              <td className="py-3 px-4 text-sm">
+                <span className="bg-gray-500/50 px-2 py-1 rounded-full text-green-300">
+                  Website
+                </span>
+              </td>
+              <td className="py-3 px-4 text-sm">Links to project 1</td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </main>
