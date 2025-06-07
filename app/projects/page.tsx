@@ -32,9 +32,9 @@ export default function Projects() {
         </p>
       </div>
 
-      <div className="flex flex-col justify-center mx-0 md:mx-10 rounded-t-2xl border backdrop-blur-3xl mb-64">
+      <div className="flex flex-col justify-center mx-0 md:mx-10 rounded-2xl border backdrop-blur-3xl mb-64">
         <table className="w-full">
-          <thead className="border-b ">
+          <thead className="border-b">
             <tr>
               <th className="py-3 px-4 text-left text-xs font-semibold uppercase tracking-wider">
                 Name
@@ -52,8 +52,8 @@ export default function Projects() {
           </thead>
           <tbody>
             <tr className="border-b bg-pink-700/10">
-              <td className="py-3 px-4 text-sm">Portfolio Page</td>
-              <td className="py-3 px-4 text-sm">
+              <td className="py-3 px-4 text-sm font-black">Portfolio Page</td>
+              <td className="py-3 px-4 text-sm font-medium">
                 Page to get information about me (current page)
               </td>
               <td className="py-3 px-4 text-sm">
@@ -77,15 +77,43 @@ export default function Projects() {
                 </Link>
               </td>
             </tr>
-            <tr className="bg-pink-700/10">
-              <td className="py-3 px-4 text-sm">Project 1</td>
-              <td className="py-3 px-4 text-sm">Description of project 1</td>
+            <tr className="bg-pink-700/10 border-b">
+              <td className="py-3 px-4 text-sm font-black">Bloggy</td>
+              <td className="py-3 px-4 text-sm font-medium">
+                Blog app that lets you write posts anonymously
+              </td>
               <td className="py-3 px-4 text-sm">
                 <span className="bg-gray-500/50 px-2 py-1 rounded-full text-green-300">
                   Website
                 </span>
               </td>
-              <td className="py-3 px-4 text-sm">Links to project 1</td>
+              <td className="py-3 px-4 text-sm">
+                <Link
+                  href="https://github.com/Domukas1337/bloggy"
+                  className="uppercase font-bold hover:text-pink-400"
+                >
+                  Github
+                </Link>
+              </td>
+            </tr>
+            <tr className="bg-pink-700/10">
+              <td className="py-3 px-4 text-sm font-black">DMKAS</td>
+              <td className="py-3 px-4 text-sm font-medium">
+                Anime search engine built using JIKAN API
+              </td>
+              <td className="py-3 px-4 text-sm">
+                <span className="bg-gray-500/50 px-2 py-1 rounded-full text-green-300">
+                  Website
+                </span>
+              </td>
+              <td className="py-3 px-4 text-sm">
+                <Link
+                  href="https://github.com/Domukas1337/dmkas-app"
+                  className="uppercase font-bold hover:text-pink-400"
+                >
+                  Github
+                </Link>
+              </td>
             </tr>
           </tbody>
         </table>
