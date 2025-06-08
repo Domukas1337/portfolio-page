@@ -53,8 +53,15 @@ export default function About() {
           experienceTo="Present"
           kindOf="own projects"
           title="Full Stack Developer"
-          description="I am currently learning a Full Stack Developer. I am working with React, Next.JS, Tailwind CSS to build apps that feel and look amazing."
-          technologies={["React", "Next.js", "Tailwind CSS", "TypeScript"]}
+          description="I am currently learning to become a Full Stack Developer. I am working with React, Next.JS, Tailwind CSS to build apps that feel and look amazing."
+          technologies={[
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "TypeScript",
+            "Python",
+            "Supabase",
+          ]}
         />
       </div>
     </main>
