@@ -1,5 +1,6 @@
 import { IoIosInformationCircle } from "react-icons/io";
 import { FaDev } from "react-icons/fa";
+import { IoMdContact } from "react-icons/io";
 
 import Image from "next/image";
 import InformationCont from "@/Components/InformationCont";
@@ -60,6 +61,12 @@ export default function Home() {
             header="Projects"
             link="/projects"
             description="Here you can see everything... Keep in mind this page may be outdated, because I don't always update this website, since I have a lot to do."
+          />
+          <InformationCont
+            icon={<IoMdContact className="text-2xl md:text-3xl" />}
+            header="Contacts"
+            link="/contacts"
+            description="If you have any questions or just want to say hi, you can contact me here. I will try to answer as soon as possible. Thanks!"
           />
         </div>
       </div>

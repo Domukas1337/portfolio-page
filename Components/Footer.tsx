@@ -19,7 +19,7 @@ export default function Footer() {
             className="rounded-full bg-black"
           />
         </Link>
-        <div className="flex flex-col pl-4">
+        <div className="flex flex-col pl-2">
           <h1 className="text-md sm:text-2xl dmkas">DOMUKAS</h1>
           <p className="text-sm">DESIGNING & PROGRAMMING WEBSITES.</p>
         </div>

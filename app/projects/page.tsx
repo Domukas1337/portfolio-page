@@ -25,14 +25,14 @@ export default function Projects() {
         </p>
       </div>
 
-      <div className="flex flex-col justify-center md:ml-10 mx-10 md:mx-0 z-10">
+      <div className="flex flex-col md:ml-10 mx-10 md:mx-0 z-10">
         <h1 className="text-xl md:text-3xl font-black">Active Projects</h1>
         <p className="w-full md:w-1/2 text-lg font-medium mt-2 text-gray-300">
           Projects that I&apos;m currently working on.
         </p>
       </div>
 
-      <div className="flex flex-col justify-center mx-0 md:mx-10 rounded-2xl border backdrop-blur-3xl">
+      <div className="flex flex-col justify-center mx-2 md:mx-10 rounded-2xl border backdrop-blur-3xl">
         <table className="w-full">
           <thead className="border-b">
             <tr>
@@ -119,14 +119,14 @@ export default function Projects() {
         </table>
       </div>
 
-      <div className="flex flex-col justify-center md:ml-10 mx-10 md:mx-0 z-10">
+      <div className="flex flex-col md:ml-10 mx-10 md:mx-0 z-10">
         <h1 className="text-xl md:text-3xl font-black">Past Projects</h1>
         <p className="w-full md:w-1/2 text-lg font-medium mt-2 text-gray-300">
           Projects that I&apos;ve worked on in the past.
         </p>
       </div>
 
-      <div className="flex flex-col justify-center mx-0 md:mx-10 rounded-2xl border backdrop-blur-3xl mb-64">
+      <div className="flex flex-col justify-center mx-2 md:mx-10 rounded-2xl border backdrop-blur-3xl mb-64">
         <table className="w-full">
           <thead className="border-b">
             <tr>
