@@ -2,6 +2,8 @@ import SocialCont from "@/Components/SocialCont";
 import Image from "next/image";
 
 import { FaInstagram } from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 
 export const metadata = {
   title: "Contacts",
@@ -35,7 +37,7 @@ export default function Contacts() {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row w-screen justify-center items-center gap-10 mt-10 mb-24">
+        <div className="flex flex-col md:flex-row w-screen justify-center items-center gap-10 mt-10 mb-12">
           <SocialCont
             header="Instagram"
             link="https://www.instagram.com/domas_mickevic/"
@@ -45,13 +47,36 @@ export default function Contacts() {
             linkText="Follow me!"
           />
           <SocialCont
-            header="Instagram"
-            link="https://www.instagram.com/domas_mickevic/"
-            description="Follow my visual updates and personal moments"
-            icon={<FaInstagram className="text-xl" />}
-            color="bg-pink-500"
-            linkText="Follow me!"
+            header="Discord"
+            link="about:blank"
+            description="Join my Discord server and chat with me or others"
+            icon={<FaDiscord className="text-xl" />}
+            color="bg-indigo-600"
+            linkText="Join server!"
           />
+        </div>
+
+        <div className="flex flex-col justify-center mb-32">
+          <div className="flex flex-col md:ml-10 mx-10 md:mx-0 z-10 mt-40">
+            <h1 className="text-xl md:text-3xl font-black">
+              Code & related stuff
+            </h1>
+            <p className="w-full md:w-1/2 text-lg font-medium mt-2 text-gray-300">
+              Here are some resources and links related to my coding projects
+              and activities.
+            </p>
+          </div>
+
+          <div className="flex flex-col md:flex-row w-screen justify-center items-center gap-10 mt-10 mb-12">
+            <SocialCont
+              header="Github"
+              link="https://github.com/Domukas1337"
+              description="Check out my GitHub profile"
+              icon={<FaGithub className="text-xl" />}
+              color="bg-gray-700"
+              linkText="Check out!"
+            />
+          </div>
         </div>
       </div>
     </main>
