@@ -41,7 +41,7 @@ export default function Contacts() {
           <SocialCont
             header="Instagram"
             link="https://www.instagram.com/domas_mickevic/"
-            description="Follow my visual updates and personal moments"
+            description="Follow my visual updates and personal moments on Instagram"
             icon={<FaInstagram className="text-xl" />}
             color="bg-pink-500"
             linkText="Follow me!"
@@ -49,7 +49,7 @@ export default function Contacts() {
           <SocialCont
             header="Discord"
             link="about:blank"
-            description="Join my Discord server and chat with me or others"
+            description="Join my Discord server and chat with me or others in the community"
             icon={<FaDiscord className="text-xl" />}
             color="bg-indigo-600"
             linkText="Join server!"
@@ -71,7 +71,7 @@ export default function Contacts() {
             <SocialCont
               header="Github"
               link="https://github.com/Domukas1337"
-              description="Check out my GitHub profile"
+              description="Check out my GitHub profile where you can find my coding projects and contributions"
               icon={<FaGithub className="text-xl" />}
               color="bg-gray-700"
               linkText="Check out!"
