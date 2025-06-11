@@ -27,6 +27,15 @@ export default function Credits() {
           </Link>
           <p> - CatPawz</p>
         </li>
+        <li className="flex flex-row gap-2">
+          <Link
+            href="https://7tv.app/emotes/01J7H26X10000F98ZYBBPBH1WM"
+            className="text-cyan-200 hover:text-purple-300 transition-colors"
+          >
+            Favicon
+          </Link>
+          <p> - Renyan</p>
+        </li>
       </ul>
     </div>
   );

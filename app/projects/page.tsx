@@ -45,7 +45,7 @@ export default function Projects() {
               <th className="py-3 px-4 text-left text-xs font-semibold uppercase tracking-wider">
                 Type
               </th>
-              <th className="py-3 px-4 text-left text-xs font-semibold uppercase tracking-wider">
+              <th className="py-3 px-4 text-left text-xs font-semibold uppercase tracking-wider hidden sm:table-cell">
                 Links
               </th>
             </tr>
@@ -61,7 +61,7 @@ export default function Projects() {
                   Website
                 </span>
               </td>
-              <td className="py-3 px-4 text-sm">
+              <td className="py-3 px-4 text-sm hidden sm:table-cell">
                 <Link
                   href="/"
                   className="uppercase font-bold hover:text-pink-400"
@@ -87,7 +87,7 @@ export default function Projects() {
                   Website
                 </span>
               </td>
-              <td className="py-3 px-4 text-sm">
+              <td className="py-3 px-4 text-sm hidden sm:table-cell">
                 <Link
                   href="https://github.com/Domukas1337/bloggy"
                   className="uppercase font-bold hover:text-pink-400"
@@ -106,7 +106,7 @@ export default function Projects() {
                   Website
                 </span>
               </td>
-              <td className="py-3 px-4 text-sm">
+              <td className="py-3 px-4 text-sm hidden sm:table-cell">
                 <Link
                   href="https://github.com/Domukas1337/dmkas-app"
                   className="uppercase font-bold hover:text-pink-400"
@@ -139,13 +139,13 @@ export default function Projects() {
               <th className="py-3 px-4 text-left text-xs font-semibold uppercase tracking-wider">
                 Type
               </th>
-              <th className="py-3 px-4 text-left text-xs font-semibold uppercase tracking-wider">
+              <th className="py-3 px-4 text-left text-xs font-semibold uppercase tracking-wider hidden sm:table-cell">
                 Links
               </th>
             </tr>
           </thead>
           <tbody>
-            <tr className="bg-pink-700/10">
+            <tr className="bg-pink-700/10 border-b">
               <td className="py-3 px-4 text-sm font-black">DMKAS Next</td>
               <td className="py-3 px-4 text-sm font-medium">
                 Anime search engine rewrite built using JIKAN API and Next.js
@@ -155,7 +155,7 @@ export default function Projects() {
                   Website
                 </span>
               </td>
-              <td className="py-3 px-4 text-sm">
+              <td className="py-3 px-4 text-sm hidden sm:table-cell">
                 <Link
                   href="https://github.com/Domukas1337/dmkas-next"
                   className="uppercase font-bold hover:text-pink-400"
@@ -164,7 +164,7 @@ export default function Projects() {
                 </Link>
               </td>
             </tr>
-            <tr className="bg-pink-700/10">
+            <tr className="bg-pink-700/10 border-b">
               <td className="py-3 px-4 text-sm font-black">Old portfolio</td>
               <td className="py-3 px-4 text-sm font-medium">
                 Old portfolio page
@@ -174,7 +174,7 @@ export default function Projects() {
                   Website
                 </span>
               </td>
-              <td className="py-3 px-4 text-sm">
+              <td className="py-3 px-4 text-sm hidden sm:table-cell">
                 <Link
                   href="https://github.com/Domukas1337/about-me-new"
                   className="uppercase font-bold hover:text-pink-400"
@@ -193,7 +193,7 @@ export default function Projects() {
                   CLI
                 </span>
               </td>
-              <td className="py-3 px-4 text-sm">
+              <td className="py-3 px-4 text-sm hidden sm:table-cell">
                 <Link
                   href="https://github.com/Domukas1337/password-manager"
                   className="uppercase font-bold hover:text-pink-400"
