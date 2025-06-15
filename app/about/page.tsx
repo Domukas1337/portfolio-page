@@ -42,7 +42,8 @@ export default function About() {
           developed a keen eye for detail and a commitment to writing clean,
           efficient code. <br /> When I&apos;m not coding, you can find me
           researching and learning new skills, or playing video games.
-          Let&apos;s connect and create something amazing together!
+          Let&apos;s connect and create something amazing together! Also I know
+          alot about computers and how they work.
         </p>
       </div>
 
