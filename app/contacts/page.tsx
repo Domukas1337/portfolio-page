@@ -48,11 +48,11 @@ export default function Contacts() {
           />
           <SocialCont
             header="Discord"
-            link="about:blank"
-            description="Join my Discord server and chat with me or others in the community"
+            link="https://discordapp.com/users/263331035834482689"
+            description="Press the button to open my profile on Discord"
             icon={<FaDiscord className="text-xl" />}
             color="bg-indigo-600"
-            linkText="Join server!"
+            linkText="Open profile!"
           />
         </div>
 
