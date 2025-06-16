@@ -49,7 +49,7 @@ export default function Contacts() {
           <SocialCont
             header="Discord"
             link="https://discordapp.com/users/263331035834482689"
-            description="Press the button to open my profile on Discord"
+            description="Press the button to open my profile on Discord and connect with me"
             icon={<FaDiscord className="text-xl" />}
             color="bg-indigo-600"
             linkText="Open profile!"
