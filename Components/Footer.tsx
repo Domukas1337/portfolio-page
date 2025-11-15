@@ -5,8 +5,8 @@ import { FaSquareGithub } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer className="fixed bottom-0 left-0 right-0 backdrop-blur-3xl shadow-2xl mx-8 sm:mx-24 rounded-2xl z-50 mb-2">
-      <div className="flex items-center m-2">
+    <footer className="bottom-0mx-8 sm:mx-24 rounded-2xl z-50 mb-4 border">
+      <div className="flex justify-between items-center m-2">
         <Link
           href="https://github.com/Domukas1337"
           className="hover:scale-105 transition-all dmkas"

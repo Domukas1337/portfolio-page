@@ -1,8 +1,6 @@
-import { IoIosInformationCircle } from "react-icons/io";
 import { FaDev } from "react-icons/fa";
-import { IoMdContact } from "react-icons/io";
+import { IoIosInformationCircle, IoMdContact } from "react-icons/io";
 
-import Image from "next/image";
 import InformationCont from "@/Components/InformationCont";
 
 export const metadata = {
@@ -13,18 +11,7 @@ export default function Home() {
   return (
     <main>
       <div className="flex flex-col justify-center h-screen">
-        <Image
-          src="/chibi.gif"
-          alt="chibi"
-          className="absolute h-screen top-0 left-0 chibi-background fade-in object-cover"
-          fill
-          priority
-          unoptimized
-        />
-        <div
-          className="ml-2 sm:ml-10 text-white z-10 fadein"
-          style={{ "--time": "1s" } as React.CSSProperties}
-        >
+        <div className="ml-2 sm:ml-10 text-white z-10">
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-black">
             Coding for fun!
           </h1>

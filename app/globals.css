@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --background: #000000;
+  --background: #443255;
   --foreground: #ffffff;
 }
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
 }
 
@@ -14,46 +14,6 @@ body {
 }
 .font-oxygen-mono {
   font-family: var(--font-oxygen-mono);
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes jumpoutfadein {
-  0% {
-    opacity: 0;
-    transform: translateY(50px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.jumpoutfadein-basic {
-  animation: jumpoutfadein 1s ease-in-out;
-}
-
-.jumpoutfadein {
-  animation: jumpoutfadein var(--time) ease-in-out;
-}
-
-.dmkas {
-  letter-spacing: 6px;
-}
-
-.first-background {
-  background-color: #443255;
-}
-
-.fadein {
-  animation: fadein var(--time) ease-in-out;
 }
 
 .chibi-background {

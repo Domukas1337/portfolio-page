@@ -1,9 +1,8 @@
-import type { Metadata } from "next";
-import { Oxygen_Mono } from "next/font/google";
-import { Inter } from "next/font/google";
-import "./globals.css";
-import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
+import Navbar from "@/Components/Navbar";
+import type { Metadata } from "next";
+import { Inter, Oxygen_Mono } from "next/font/google";
+import "./globals.css";
 
 const oxygenMono = Oxygen_Mono({
   subsets: ["latin"],
@@ -38,8 +37,16 @@ export default function RootLayout({
       lang="en"
       className={`${oxygenMono.variable} ${inter.variable} antialiased`}
     >
-      <body className="first-background">
+      <body>
         <Navbar />
+        <video
+          autoPlay
+          muted
+          loop
+          className="absolute w-full h-full top-0 left-0 chibi-background object-cover"
+        >
+          <source src="/chibi.mp4" type="video/mp4" />
+        </video>
         {children}
         <Footer />
       </body>

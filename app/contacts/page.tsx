@@ -1,8 +1,6 @@
 import SocialCont from "@/Components/SocialCont";
-import Image from "next/image";
 
-import { FaInstagram } from "react-icons/fa";
-import { FaDiscord } from "react-icons/fa";
+import { FaDiscord, FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 
 export const metadata = {
@@ -12,14 +10,6 @@ export const metadata = {
 export default function Contacts() {
   return (
     <main className="flex flex-col">
-      <Image
-        src="/chibi.gif"
-        alt="chibi"
-        className="absolute h-screen top-0 left-0 chibi-background fade-in object-cover"
-        fill
-        priority
-        unoptimized
-      />
       <div className="flex flex-col justify-center mt-56 md:ml-10 mx-10 md:mx-0 z-10">
         <h1 className="text-4xl md:text-6xl font-black">Contacts</h1>
         <p className="w-full md:w-1/2 text-2xl font-medium mt-2 text-gray-300">

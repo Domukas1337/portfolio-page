@@ -9,14 +9,6 @@ export default function About() {
   return (
     <main className="flex flex-col mt-24">
       <div className="flex flex-col lg:flex-row justify-center items-center mx-8 lg:mx-0 gap-2">
-        <Image
-          src="/chibi.gif"
-          alt="chibi"
-          className="absolute h-screen top-0 left-0 chibi-background fade-in object-cover"
-          fill
-          priority
-          unoptimized
-        />
         <div className="z-10">
           <h1 className="text-3xl md:text-6xl font-black">I&apos;m Domukas</h1>
           <p className="text-lg md:text-2xl text-gray-300 w-1/2">

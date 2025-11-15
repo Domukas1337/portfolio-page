@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
@@ -8,16 +7,8 @@ export const metadata = {
 export default function Projects() {
   return (
     <main className="flex flex-col gap-24">
-      <Image
-        src="/chibi.gif"
-        alt="chibi"
-        className="absolute h-screen top-0 left-0 chibi-background fade-in object-cover"
-        fill
-        priority
-        unoptimized
-      />
       <div className="flex flex-col justify-center mt-40 md:ml-10 mx-10 md:mx-0 z-10">
-        <h1 className="text-4xl md:text-6xl font-black">Domukas Projects</h1>
+        <h1 className="text-4xl md:text-6xl font-black">My projects</h1>
         <p className="w-full md:w-1/2 text-2xl font-medium mt-2 text-gray-300">
           I&apos;ve coded a lot of stuff... here you can see almost
           everything... Keep in mind this page may be outdated, because I
