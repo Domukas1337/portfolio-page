@@ -1,4 +1,3 @@
-import Footer from "@/Components/Footer";
 import Navbar from "@/Components/Navbar";
 import type { Metadata } from "next";
 import { Inter, Oxygen_Mono } from "next/font/google";
@@ -48,7 +47,6 @@ export default function RootLayout({
           <source src="/chibi.mp4" type="video/mp4" />
         </video>
         {children}
-        <Footer />
       </body>
     </html>
   );
